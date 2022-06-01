@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"astyle.astylerc": "${workspaceFolder}/Tools/CodeStyle/astylerc"
+	}
+}
