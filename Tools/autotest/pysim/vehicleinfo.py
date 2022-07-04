@@ -246,6 +246,10 @@ class VehicleInfo(object):
                 "waf_target": "bin/arduplane",
                 "default_params_filename": "default_params/quadplane.parm",
             },
+             "quadplane-y6": {
+                "waf_target": "bin/arduplane",
+                "default_params_filename": "default_params/quadplane-y6.parm",
+            },
             "firefly": {
                 "waf_target": "bin/arduplane",
                 "default_params_filename": "default_params/firefly.parm",

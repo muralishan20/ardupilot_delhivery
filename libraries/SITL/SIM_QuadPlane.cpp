@@ -45,6 +45,12 @@ QuadPlane::QuadPlane(const char *frame_str) :
         frame_type = "+";
     } else if (strstr(frame_str, "-y6")) {
         frame_type = "y6";
+        // elevon style surfaces
+        elevons = true;
+        // fwd motor gives zero thrust
+        // thrust_scale = 0;
+        // vtol motors start at 4
+        motor_offset = 4;
     } else if (strstr(frame_str, "-tri")) {
         frame_type = "tri";
     } else if (strstr(frame_str, "-tilttrivec")) {
